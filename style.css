@@ -1,0 +1,93 @@
+body {
+    background-image: url("imges/tile.jpg");
+}
+
+#taskContainer{
+    height: 200px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.deleteBtn{
+    color: white;
+    background-color: red;
+}
+
+.formBox {
+    background-image: url("imges/formbg.jpg");
+    height: 310px;
+    margin: 50px;
+
+}
+
+body>h1 {
+    text-align: center;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 59px;
+    color: white;
+    font: bolder;
+}
+
+.lableForm {
+    background-color: white;
+}
+
+.lastOne{
+    animation: fadeIn ease 3s;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.taskBox {
+    background-image: url("imges/notebg.png");
+    width: 198px;
+    height: 250px;
+    word-wrap: break-word;
+    overflow: auto;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.taskDateAndTime {
+    margin-left: 5%;
+}
+
+.btnContainer {
+    display: none;
+}
+
+.btnContainer {
+    text-align: right;
+    padding: 10px;
+    width: 94%;
+    height: 0px;
+}
+
+.taskBox:hover > .btnContainer {
+    display: inline;
+    float: right;
+    padding: 10px;
+    width: 94%;
+    height: 0px;
+}
+
+.btnContainer:hover {
+    cursor: pointer;
+}
+
+.taskText {
+    height: 57%;
+    width: 90%;
+    margin: 27px auto;
+    overflow: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
