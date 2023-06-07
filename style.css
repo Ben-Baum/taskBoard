@@ -13,11 +13,16 @@ body {
     background-color: red;
 }
 
+.inputsBox{
+    padding-top: 10px;
+    padding-right: 240px;
+    padding-left: 80px;
+}
+
 .formBox {
     background-image: url("imges/formbg.jpg");
     height: 310px;
     margin: 50px;
-
 }
 
 body>h1 {
@@ -50,17 +55,14 @@ body>h1 {
 
 .taskDateAndTime {
     margin-left: 5%;
+    margin-top: -50px;
 }
 
 .btnContainer {
     display: none;
-}
-
-.btnContainer {
     text-align: right;
-    padding: 10px;
-    width: 94%;
-    height: 0px;
+    margin-top: 14px;
+    margin-inline-end: 18px;
 }
 
 .taskBox:hover > .btnContainer {
@@ -78,7 +80,7 @@ body>h1 {
 .taskText {
     height: 57%;
     width: 90%;
-    margin: 27px auto;
+    margin: 45px auto;
     overflow: auto;
 }
 

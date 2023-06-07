@@ -18,20 +18,22 @@
     <div>
         <div class="formBox">
             <form id="formFrame" onsubmit="getTaskDetails()">
-                <label class="lableForm">Enter your task text</label>
-                <br>
-                <input class="form-control" type="ariabox" id="textTask" required>
-                <br>
-                <label class="lableForm">Enter your task date</label>
-                <br>
-                <input class="form-control" type="date" id="dateTask" required>
-                <br>
-                <label class="lableForm">Enter your task time</label>
-                <br>
-                <input class="form-control" type="time" id="timeTask"  required>
-                <br>
-                <button class="btn btn-success" type="submit">add Task</button>
-                <button onclick="resetForm()" class="btn btn-danger">reset</button>
+                <div class="inputsBox">
+                    <label class="lableForm">Enter your task text</label>
+                    <br>
+                    <input class="form-control" type="ariabox" id="textTask" required>
+                    <br>
+                    <label class="lableForm">Enter your task date</label>
+                    <br>
+                    <input class="form-control" type="date" id="dateTask" required>
+                    <br>
+                    <label class="lableForm">Enter your task time</label>
+                    <br>
+                    <input class="form-control" type="time" id="timeTask" required>
+                    <br>
+                    <button class="btn btn-success" type="submit">add Task</button>
+                    <button onclick="resetForm()" class="btn btn-danger">reset</button>
+                </div>
             </form>
         </div>
     </div>
