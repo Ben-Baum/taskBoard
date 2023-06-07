@@ -118,4 +118,5 @@ function timeAutoInput() {
         minute = '0' + minute;
     const now = hours + ':' + minute;
     timeInput.value = now;
+    timeInput.setAttribute("min", now);
 };
